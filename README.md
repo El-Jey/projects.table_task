@@ -1,6 +1,6 @@
 ## Setup
 - `git clone https://github.com/El-Jey/projects.table_task.git`
-- `cd projects.table_task.git`
+- `cd projects.table_task`
 - `yarn install`
 
 ## Development mode
