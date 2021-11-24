@@ -77,7 +77,7 @@
                                         <v-card flat outlined>
                                             <v-list class="pa-0">
                                                 <v-list-item-group
-                                                    v-model="statusModel"
+                                                    v-model="statusEditModel"
                                                 >
                                                     <v-list-item
                                                         v-for="(
@@ -278,7 +278,7 @@ export default {
                 return this.search;
             },
         },
-        statusModel: {
+        statusEditModel: {
             set: function (val) {
                 this.newStatus = val;
             },
