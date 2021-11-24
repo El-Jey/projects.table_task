@@ -5,6 +5,7 @@
 
 ## Development mode
 - `yarn run dev`
+- go to <http://localhost:7700>
 
 ## Production mode
 - `yarn run prod`
