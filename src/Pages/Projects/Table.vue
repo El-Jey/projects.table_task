@@ -520,7 +520,7 @@ export default {
             return title;
         },
         visibilityIcon(isPublic) {
-            return isPublic ? "mdi-check" : "mdi-close";
+            return isPublic ? "mdi-check" : "";
         },
     },
 };
