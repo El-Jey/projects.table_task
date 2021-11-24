@@ -6,7 +6,7 @@ const routes = [
     {
         path: "/projects",
         name: "MainApp",
-        component: () => import("@/Pages/Projects/Index.vue"),
+        component: () => import("@/Pages/Projects/index.vue"),
     },
     {
         path: "/profile",
@@ -31,7 +31,7 @@ const routes = [
     {
         path: "*",
         name: "NotFound",
-        component: () => import("@/Pages/NotFound/Index.vue")
+        component: () => import("@/Pages/NotFound/index.vue")
     }
 ];
 
