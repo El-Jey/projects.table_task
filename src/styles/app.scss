@@ -1,0 +1,15 @@
+.pointer {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1264px) {
+    .v-application .hidden-md {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 1263px) {
+    .v-application .hidden-sm {
+        display: none !important;
+    }
+}
